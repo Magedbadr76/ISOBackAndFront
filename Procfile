@@ -1,0 +1,1 @@
+web:    java $JAVA_OPTS -Dspring.datasource.url=jdbc:postgresql://ec2-34-205-46-149.compute-1.amazonaws.com:5432/db08g58326ue6h?sslmode=require -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
